@@ -1,0 +1,39 @@
+{
+  "name": "niche-crypt",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Pure TypeScript Blowfish, SEED, HIGHT, LZO1X and LZHUF for Node.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "node --test test/",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "engines": {
+    "node": ">=22.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "typescript": "^6.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "keywords": [
+    "blowfish",
+    "seed",
+    "hight",
+    "lzo",
+    "lzhuf",
+    "crypto",
+    "legacy",
+    "typescript"
+  ]
+}
