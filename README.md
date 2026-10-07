@@ -124,4 +124,4 @@ npm test
 
 ## License
 
-Add a license of your choice before publishing.
+**LEAF License**: Refer LICENSE for detailed information.
