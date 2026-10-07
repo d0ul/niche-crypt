@@ -2,7 +2,7 @@
   "name": "niche-crypt",
   "version": "0.1.0",
   "type": "module",
-  "description": "Pure TypeScript Blowfish, SEED, HIGHT, LZO1X and LZHUF for Node.js",
+  "description": "TypeScript implementation of niche cryptos.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -35,5 +35,15 @@
     "crypto",
     "legacy",
     "typescript"
-  ]
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Doul Labs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d0ul/niche-crypt.git"
+  },
+  "homepage": "https://github.com/d0ul/niche-crypt#readme",
+  "bugs": {
+    "url": "https://github.com/d0ul/niche-crypt/issues"
+  }
 }
